@@ -29,7 +29,7 @@ public class Course {
     
     @NotBlank
     @NotNull
-    @Length(min = 5, max = 100)
+    @Length(min = 3, max = 100)
     @Column(name = "name", length = 100, nullable = false) //Consegue especificar o nome da tabela no banco, tamanho do banco e se o campo é not null
     private String name;
 
